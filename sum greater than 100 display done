@@ -1,0 +1,25 @@
+CODE:
+mport java.util.*;
+
+public class S123 {
+    public static void main(String[] args){
+        int i=1;
+        int sum=0;
+        Scanner obj=new Scanner(System.in);
+        while(true) {
+            int a=obj.nextInt();
+            sum=sum+a;
+
+            if(sum>100){
+                System.out.println("Done");
+                break;
+            }
+        }
+
+    }
+}
+OUTPUT:
+22
+33
+55
+Done
