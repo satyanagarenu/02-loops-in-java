@@ -1,0 +1,20 @@
+CODE:
+import java.util.*;
+
+public class S123 {
+    public static void main(String[] args) {
+        int sum = 0;
+        Scanner obj = new Scanner(System.in);
+        int a=obj.nextInt();
+        for(int i=1;i<=a/2;i++) {
+            if (a % i == 0) {
+                sum = sum + i;
+            }
+        }
+        System.out.print(sum);
+
+    }
+}
+OUTPUT:
+10
+8
