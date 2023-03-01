@@ -1,0 +1,21 @@
+CODE:
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        System.out.println("whether the input is onside or outside of 10");
+        while(true){
+            int n=obj.nextInt();
+            if(n<1||n>10)
+                continue;
+            System.out.println(n + "is between 0 and 10");
+            break;
+        }
+
+    }
+}
+OUTPUT:
+whether the input is onside or outside of 10
+22
+3
+3is between 0 and 10
