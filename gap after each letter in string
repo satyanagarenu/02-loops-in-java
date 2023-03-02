@@ -1,0 +1,22 @@
+CODE:
+import java.util.*;
+
+public class S123 {
+    public static void main(String[] args) {
+        Scanner obj=new Scanner(System.in);
+        String a=obj.nextLine();
+        int b=a.length();
+        for(int i=0;i<b;i++){
+            System.out.print(" "+a.charAt(i));
+        }
+
+
+        }
+
+}
+
+OUTPUT:
+satya
+s a t y a
+satya naga renu
+s a t y a   n a g a   r e n u
