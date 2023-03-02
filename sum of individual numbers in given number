@@ -1,0 +1,22 @@
+CODE:
+import java.util.*;
+
+public class S123 {
+    public static void main(String[] args) {
+        Scanner obj=new Scanner(System.in);
+        int b=obj.nextInt();
+        int sum=0;
+
+        while(b>0){
+            sum=sum+(b%10);
+            b=b/10;
+
+        }
+        System.out.println(sum);
+
+    }
+}
+OUTPUT:
+123456789
+45
+
