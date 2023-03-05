@@ -1,0 +1,25 @@
+Here i took guess number as 10
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        int sum=0;
+        System.out.println("whether the input is onside or outside of 10");
+        do{
+            int n=obj.nextInt();
+            if(n==10){
+            break;
+            }
+            else
+                sum+=1;
+
+        }while(true);
+        System.out.println("it takes these many chance="+sum);
+
+    }
+}
+Output:
+1
+2
+10
+it takes these many chance=2
