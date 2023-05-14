@@ -1,5 +1,5 @@
 CODE:
-mport java.util.*;
+import java.util.*;
 
 public class S123 {
     public static void main(String[] args){
